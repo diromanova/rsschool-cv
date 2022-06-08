@@ -37,5 +37,4 @@ Belarusian State Economic University
 
 ## Language
 
-- Russian- native speaker.
 - English- B1.

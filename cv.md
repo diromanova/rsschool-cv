@@ -25,9 +25,10 @@ I am 25 years old. I have good interpersonal skills, an excelent team worker and
 ## Code
 
 ```
-function multiply(a, b){
- const c = a * b
- return c
+function mergeArrays(arr1, arr2) {
+  const newArray =[...new Set(arr1.concat(arr2))]
+ const result = newArray.sort((a, b) => a - b);
+ return result;
 }
 ```
 

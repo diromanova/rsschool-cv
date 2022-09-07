@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" href="./assets/IMG_1207.ico" >
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" type="text" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" type="text" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" type="text" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" type="text" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item"><a href="#code" type="text" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#education" type="text" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" type="text" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <div class="section-profile-title">
+          <h1 class="main-title">DIANA LINKOVA</h1>
+        </div>
+        <div class="section-profile">
+          <img
+            src="./assets/IMG_1207.JPG"
+            alt="My photo"
+            class="profile-photo"
+          >
+        </div>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item contacts-item">Minsk, Belarus</li>
+            <li class="section-item contacts-item">
+              Email:
+              <a href="mailto:di_rome@mail.ru"  title="email">di_rome@mail.ru</a>
+            </li>
+            <li class="section-item contacts-item">
+              Github:
+              <a href="https://github.com/diromanova"  title="github"
+                >diromanova</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            I am 25 years old. I have good interpersonal skills, an excelent
+            team worker and I learn and develop new skills very quickly. I hope
+            my diligence and the courses will help me to obtain useful
+            knowledge.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item">Git</li>
+            <li class="section-item">HTML</li>
+            <li class="section-item">CSS</li>
+            <li class="section-item">JavaScript (Basics)</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre class="pre"><code>function likes(names) {
+            if (names.length === 0) return "no one likes this";
+            if (names.length === 1) return `${names[0]} likes this`;
+            if (names.length === 2) return `${names[0]} and ${names[1]} like this`;
+            if (names.length === 3)
+              return `${names[0]}, ${names[1]} and ${names[2]} like this`;
+            return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
+          }
+}</code></pre>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              CV#1:
+              <a href="https://diromanova.github.io/rsschool-cv/cv"
+                >Markdown,Git</a
+              >
+            </li>
+            <li class="section-item">
+              CV#2:
+              <a href="https://diromanova.github.io/rsschool-cv/" 
+                >HTML, CSS, Git Basics</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section section-education" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Belarusian State Economic University</p>
+        </section>
+        <section class="section section-english" id="english">
+          <h2 class="section-title">English</h2>
+          <p>B1 - Pre-Intermediate</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="credit">
+          <a href="https://github.com/diromanova" class="github nav-link"
+            >© diromanova</a
+          >
+        </div>
+        <div class="year">2022</div>
+        <a href="https://rs.school/"  class="rss"></a>
+      </div>
+    </footer>
+  </body>
+</html>
